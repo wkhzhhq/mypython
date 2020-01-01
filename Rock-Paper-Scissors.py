@@ -15,7 +15,7 @@ for count in range(1,4):
 if scort>0:
     print 'Your scort is {} ,you win!'.format(scort)
 elif scort==0:
-    print 'Your scort is {},draw!'
+    print 'Your scort is {},draw!'.format(scort)
 else:
     print 'Your scort is {},you failed!'.format(scort)
 
